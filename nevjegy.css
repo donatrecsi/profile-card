@@ -20,7 +20,7 @@ body {
  height: 100vh;
  display: flex;
  position: relative;
- background: url("../online-nevjegy/assets/web-developer.jpg") no-repeat center center fixed;
+ background: url("../profile-card/assets/web-developer.jpg") no-repeat center center fixed;
  align-items: center;
  flex-direction: column;
  justify-content: center;
