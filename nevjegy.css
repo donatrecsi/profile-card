@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  padding: 1px;
+  background-color: #666;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(20%);
+}
+
+body {
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ position: relative;
+ background: url("../online-nevjegy/assets/web-developer.jpg") no-repeat center center fixed;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+ opacity: 0.9;
+	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+}
+
+.wrapper {
+  width: 420px;
+  height:340px;
+  background: #d1c9c2;
+  transition: background .6s ease;
+  border-radius: 10px;
+	padding: 10px 10px 20px 20px;
+	box-shadow: 0 8px 40px rgba(#000000, .2);
+
+}
+
+.profile {
+		margin-top: 2.2em;
+		position: relative;
+}
+
+.thumbnail {
+			width: 124px;
+			height: 124px;
+			display: flex;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: -95px;
+			border-radius: 100%;
+			box-shadow: shadow;
+}
+
+.name {
+			color: #2D354A;
+			font-size: 25px;
+			font-weight: 600;
+			text-align: center;
+	        margin-top: auto;
+		}
+		
+		.title {
+			color: #7C8097;
+			font-size: .75em;
+			font-weight: 300;
+			text-align: center;
+			padding-top: .5em;
+			padding-bottom: .7em;
+			letter-spacing: 1.5px;
+			text-transform: uppercase;
+		}
+		
+.description {
+			color: #080911;
+			font-size: 15px;
+			font-weight: 300;
+			text-align: center;
+			margin-bottom: 1.7em;
+	margin-top: 1em;
+	text-shadow: 4px 4px 11px;
+		}
+	
+.links {
+	color: black;
+    font-size: .75em;
+	font-weight: 300;
+	text-align: center;
+	padding-top: .4em;
+	padding-bottom: .10em;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	line-height: 2rem;
+}
+
+
+li {
+ display: block;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 7px;
+  color: white;
+  background-color: #979ba6;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+
